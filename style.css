@@ -12,7 +12,8 @@
 }
 
 .left-page {
-  width: 40vw;
+    position: relative;
+  width: 35%;
   overflow: hidden;
   background-image: url("leaf.jpg");
   background-repeat: no-repeat;
@@ -22,4 +23,14 @@
 
 .right-page {
   width: 65%;
+}
+
+.transparent-div {
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    height: 8rem;
+    border: 5px solid black;
+    background-color: black;
+    opacity: 0.5;
 }
