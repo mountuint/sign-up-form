@@ -1,22 +1,25 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-
-
 .container {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .left-page {
-    width: 35%;
+  width: 40vw;
+  overflow: hidden;
+  background-image: url("leaf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-
 .right-page {
-    width: 65%;
+  width: 65%;
 }
