@@ -12,7 +12,7 @@
 }
 
 .left-page {
-    position: relative;
+  position: relative;
   width: 35%;
   overflow: hidden;
   background-image: url("leaf.jpg");
@@ -26,11 +26,34 @@
 }
 
 .transparent-div {
-    position: absolute;
-    top: 10rem;
-    width: 100%;
-    height: 8rem;
-    border: 5px solid black;
-    background-color: black;
-    opacity: 0.5;
+  position: absolute;
+  top: 10rem;
+  width: 100%;
+  height: 8rem;
+  outline: 5px solid black;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.odin-container {
+  position: absolute;
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.odin-logo {
+  width: 5rem;
+}
+
+@font-face {
+  font-family: norseBold;
+  src: url("Norsebold.otf");
+}
+
+.odin-text {
+  font-family: norseBold;
+  font-size: 5rem;
+  color: white;
 }
