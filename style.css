@@ -27,9 +27,9 @@
 
 .transparent-div {
   position: absolute;
-  top: 10rem;
+  top: 22vh;
   width: 100%;
-  height: 8rem;
+  height: 17vh;
   outline: 5px solid black;
   background-color: black;
   opacity: 0.5;
@@ -38,13 +38,13 @@
 .odin-container {
   position: absolute;
   display: flex;
-  height: 8rem;
+  height: 17vh;
   justify-content: center;
   align-items: center;
 }
 
 .odin-logo {
-  width: 5rem;
+  width: clamp(2rem, 12vh, 8rem);
 }
 
 @font-face {
@@ -54,6 +54,6 @@
 
 .odin-text {
   font-family: norseBold;
-  font-size: 5rem;
+  font-size: clamp(2rem, 10vh, 7rem);
   color: white;
 }
